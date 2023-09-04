@@ -1,6 +1,6 @@
 let num1 = 3
 let num2 = 5
-let operacao = ""
+let operacao = "+"
 
 function resultado(){
   if(operacao == "+"){
