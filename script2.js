@@ -5,8 +5,6 @@ let num2 = 5
 let operacao = ""
 
 function resultado(){
-  /* let resultado = somar(num1, num2)
-  console.log(resultado) */
   if(operacao == "+"){
     let resultado = somar(num1, num2)
     console.log(resultado)
