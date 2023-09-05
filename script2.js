@@ -23,12 +23,12 @@ resultado()
 
 function somar(){
   let soma = num1 + num2
-  return somaa
+  return soma
 }
 
 function subtrair(){
   let subtrair = num1 - num2
-  return subtraire
+  return subtrair
 }
 
 function multiplicar(){
