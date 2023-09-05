@@ -23,7 +23,7 @@ resultado()
 
 function somar(){
   let soma = num1 + num2
-  return soma
+  return somaa
 }
 
 function subtrair(){
