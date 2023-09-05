@@ -28,7 +28,7 @@ function somar(){
 
 function subtrair(){
   let subtrair = num1 - num2
-  return subtrair
+  return subtraire
 }
 
 function multiplicar(){
