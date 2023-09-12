@@ -2,78 +2,240 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-        crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <title>Teste</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1d4eec314a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+3:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+3:wght@600&display=swap"
+    rel="stylesheet">
+
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/favicon.png" alt="" class="schoolnavbar">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: white">
+    <div class="container-fluid" style="margin-left: 50px;">
+      <a class="navbar-brand" href="#"><b>WiSchool</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navi">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Instructors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Schedules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+        <form class="nav-search" role="search">
+          <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <i class="fa-solid fa-magnifying-glass" style="color:#6A0000"></i>
+          <button class="btn btn-light" style="color: #09B451" type="submit">Login</button>
+          <button class="btn btn-success" style="background-color: #09B451;  border: none;
+          outline: none;" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--card-->
+  <div class="card mx-auto"
+    style="margin-top: 20px; border-radius: 50px; width: 1240px; height: 605px; border: transparent; background-image: repeating-linear-gradient(10deg, rgb(235, 255, 235), white);">
+    <div class="card-body">
+      <img src="assets/Frame_6506.png" alt="" style="float: right;">
+      <div style="text-align: left; width: 300px;">
+        <h5 class="card-title"
+          style="font-size: 60px; font-family: Poppins, sans-serif; width: 589px; line-height: normal;">Quality <span
+            style="color: #09B451;">Education</span> By Any Means Necessary.</h5>
+      </div>
+
+    <div class="sub-card">
+      <span>Learn from best <span
+        style="color: #09B451;">instructors</span> around the globe</span>
+        <div class="sub-card-thumbnails" style="display: flex; align-items: flex-start; gap: -21px">
+          <img src="assets/Frame_6509.png" alt="">
+          <img src="assets/Frame_6509.png" alt="">
+          <img src="assets/Frame_6509.png" alt="">
+          <img src="assets/Frame_6509.png" alt="">
+          <img src="assets/Frame_6509.png" alt="">
         </div>
-    </nav>
-    <ul class="nav">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-    </ul>
-    <footer style=""> </footer>
+    </div>
+
+    <div class="sub-car">
+      Amazing students around the globe
+    </div>
+      <br>
+      <button href="" class="btn"
+        style="background-color: #09B451; color: white; --bs-btn-padding-y: 20px; --bs-btn-padding-x: 40px; --bs-btn-font-size: 16px; font-family: 'Open Sans', sans-serif;
+        font-family: 'Source Sans 3', sans-serif;">Get
+        Started</button>
+    </div>
+  </div>
+  <!--sub menu-->
+  <div class="nav nav-pills nav-fill" style="margin-top: 30px;">
+    <a href="" class="col-sm-2" style="text-decoration: none;">
+      <div class="nav-item" style="border-radius: 0px; background-color: #DFF;">
+        <div class="nav-link">
+          <p>Problem Saving</p>
+        </div>
+      </div>
+    </a>
+    <a href="" class="col-sm-2" style="text-decoration: none;">
+      <div class="nav-item" style="border-radius: 0px; background-color: #DFF;">
+        <div class="nav-link">
+          <p>Live Chat</p>
+        </div>
+      </div>
+    </a>
+    <a href="" class="col-sm-2" style="text-decoration: none;">
+      <div class="nav-item" style="border-radius: 0px; background-color: #DFF;">
+        <div class="nav-link">
+          <p>Group Reading</p>
+        </div>
+      </div>
+    </a>
+    <a href="" class="col-sm-2" style="text-decoration: none;">
+      <div class="nav-item" style="border-radius: 0px; background-color: #DFF;">
+        <div class="nav-link">
+          <p>10k Courses</p>
+        </div>
+      </div>
+    </a>
+    <a href="" class="col-sm-2" style="text-decoration: none;">
+      <div class="nav-item" style="border-radius: 0px; background-color: #DFF;">
+        <div class="nav-link">
+          <p>Hand-on Activies</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  <!--texto-->
+  <br>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col align-self-start align" style="font-family: Poppins, sans-serif; font-size: 32px">Choose favourite
+        course from top
+        cartegories <span style="font-size: 24px">See all</span>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <!--carrossel-->
+  <!-- <div id="carouselExample" class="card slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/assets/favicon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/assets/favicon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/assets/favicon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+  <div class="container" style="display: flex; align-items: center; justify-content: center;">
+    <div class="content"
+      style="display: flex; flex-direction: column; align-items: center; padding: 30px; position: relative; z-index: 100;">
+      <div class="card">
+        <div class="card-content">
+          <div class="image">
+            <img src="/assets/favicon.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content"
+      style="display: flex; flex-direction: column; align-items: center; padding: 30px; position: relative; z-index: 100;">
+      <div class="card">
+        <div class="card-content">
+          <div class="image">
+            <img src="/assets/favicon.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content"
+      style="display: flex; flex-direction: column; align-items: center; padding: 30px; position: relative; z-index: 100;">
+      <div class="card">
+        <div class="card-content">
+          <div class="image">
+            <img src="/assets/favicon.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <footer></footer>
 </body>
 
 </html>
